@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form validator</title>
+  </head>
+  <body>
+    <!--this is parent element-->
+    <div class="container">
+      <!-- all things here is childe for first div-->
+      <form id="form" class="form">
+        <h2>Registart with us</h2>
+        <div class="form-control">
+          <label for="username"> username</label>
+          <input type="text" id="username" placeholder="Enter User name" />
+          <small>Error</small>
+        </div>
+        <div class="form-control ">
+          <label for="email"> Email</label>
+          <input type="text" id="email" placeholder="Enter User Email" />
+          <small>Error</small>
+        </div>
+
+        <div class="form-control">
+          <label for="password"> password</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="Enter User Password"
+          />
+          <small>Error</small>
+
+          <div class="form-control">
+            <label for="password2"> confrim password</label>
+            <input
+              type="password2"
+              id="password2"
+              placeholder="Enter User Password"
+            />
+            <small>Error</small>
+          </div>
+          <button>Submitt</button>
+        </div>
+      </form>
+    </div>
+    <script src="java.js"></script>
+  </body>
+</html>
